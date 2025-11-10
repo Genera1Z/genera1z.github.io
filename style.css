@@ -10,3 +10,15 @@
 .font-fs {
   font-family: "fs", sans-serif;
 }
+
+/* Remove underline for all links */
+a {
+  text-decoration: none;
+  /* color: blue; */
+  /* Optional: set link color */
+}
+
+/* Optional: Add underline only when hovered */
+a:hover {
+  text-decoration: underline;
+}
