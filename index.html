@@ -31,6 +31,7 @@
           <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
           <li class="nav-item"><a class="nav-link" href="#news">News</a></li>
           <li class="nav-item"><a class="nav-link" href="#research">Research</a></li>
+          <li class="nav-item"><a class="nav-link" href="#supervision">Supervision</a></li>
           <li class="nav-item"><a class="nav-link" href="#publication">Publication</a></li>
         </ul>
       </div>
@@ -72,7 +73,8 @@
               <h2>About</h2>
               <p>
                 I am a Doctoral Researcher at <a href="https://www.aalto.fi/en/aalto-university/rankings">Aalto
-                  University</a>.
+                  University</a>, funded by <a href="https://fcai.fi/">FCAI</a> (Finnish Center for Artificial
+                Intelligence).
                 I am supervised by Professor <a href="https://scholar.google.com/citations?user=-2fJStwAAAAJ">Joni
                   Pajarinen</a>, who leads our <a href="https://rl.aalto.fi">Aalto Robot Learning Lab</a>.
                 My co-supervisors are Professor <a
@@ -81,12 +83,16 @@
                   Kannala</a>.
               </p>
               <p>
-                My research is in the domain of Computer Vision, focusing on <b>Object-Centric</b> representation <b>Learning</b> (OCL).
-                By combining OCL with mainstream World Models (WM), I aim to enhance embodied agents' Perception, Understanding,
-                Reasoning and Prediction of visual scenes, as well as their Planning, Decision-making and Acting in environments.
+                My research is in the domain of Computer Vision, focusing on <b>Object-Centric</b> representation
+                <b>Learning</b> (OCL).
+                By combining OCL with mainstream World Models (WM), I aim to enhance embodied agents' Perception,
+                Understanding,
+                Reasoning and Prediction of visual scenes, as well as their Planning, Decision-making and Acting in
+                environments.
               </p>
               <p>
-                I have devoted a lot to writing my <b>object-centric-bench</b> framework, where many OCL methods are implemented with unified,
+                I have devoted a lot to writing my <b>object-centric-bench</b> framework, where many OCL methods are
+                implemented with unified,
                 strong training tricks. Thus all those well-known OCL methods can be evaluated and compared under fair
                 settings. This framework has already been adopted by many follower works. Take my own as an example:
                 <a href="https://github.com/Genera1Z/VQ-VFM-OCL">VQ-VFM-OCL</a>,
@@ -133,11 +139,65 @@
               <h2>Research</h2>
               <p>
                 OCL aims to represent image/video as (sub-)object-level feature vectors, termed slots.
-                OCL models follow the encode-aggregate-decode architecture, trained by reconstructing the input in some form.
+                OCL models follow the encode-aggregate-decode architecture, trained by reconstructing the input in some
+                form.
               </p>
-              <p>I have been improving OCL in its aggregation, decoding and reconstruction, as well as its transition.</p>
+              <p>I have been improving OCL in its aggregation, decoding and reconstruction, as well as its transition.
+              </p>
               <p>I am trying to combine OCL with mainstream WMs.</p>
-              <p>I am trying to improve OCL with stronger geometry inductive bias by combining OCL with geometric vision models, like NeRF and GS.</p>
+              <p>I am trying to improve OCL with stronger geometry inductive bias by combining OCL with geometric vision
+                models, like NeRF and GS.</p>
+            </section>
+          </div>
+        </div>
+
+        <div class="card mb-4">
+          <div class="card-body">
+            <section id="supervision">
+              <h2>Supervision</h2>
+
+              <b>Current</b>
+              <ul>
+                <li>
+                  Guangyuan Li, 2025/09~Now. Master student @ Aalto University. <br>
+                  OCL for vision token pruning in VLMs and for context token pruning in LLMs. <br>
+                  Output: <code><a href="https://arxiv.org/abs/2511.20439">OC-VTP</a></code>
+                </li>
+                <li>
+                  Fan Chen, 2025/05~Now. Master student @ Guilin University of Electronic Technology. <br>
+                  OCL plus geometric computer vision.
+                </li>
+                <li>
+                  Yanhua Han, 2025/05~Now. Master student @ Guilin University of Electronic Technology. <br>
+                  OCL for learning visual hierarchies.
+                </li>
+                <li>
+                  Youliang Tao, 2025/05~Now. Bachelor student @ Guilin University of Electronic Technology. <br>
+                  OCL decoding with masked auto-encoding.
+                </li>
+              </ul>
+
+              <b>Past</b>
+              <ul>
+                <li>
+                  Hongjia Liu, 2024/12~2025/05. Master student @ Aalto University. <br>
+                  OCL plus vector-quantization. <br>
+                  Output: <code><a href="https://arxiv.org/abs/2505.20772">MetaSlot</a></code>
+                </li>
+                <li>
+                  Janina Kemppainen, 2025/02~2025/05. Bachelor student @ Aalto University. <br>
+                  No/low-code AI app building platform case study. <br>
+                  Output:
+                  <code><a href="https://aaltodoc.aalto.fi/items/2445e512-9ede-4bb0-988e-28da53efb7f0">thesis</a></code>
+                </li>
+                <li>
+                  Daniel Kopra, 2023/02~2023/05. Bachelor student @ Aalto University. <br>
+                  Literature review on modular design in deep neural networks. <br>
+                  Output:
+                  <code><a href="https://aaltodoc.aalto.fi/items/61a2a654-9627-4d71-a241-2652b543f502">thesis</a></code>
+                </li>
+              </ul>
+
             </section>
           </div>
         </div>
@@ -153,7 +213,8 @@
                   Object-Centric Vision Token Pruning for Vision Language Models.
                   arXiv:2511.20439. <br>
                   <code>[OC-VTP]<a href="https://github.com/GarryLarry010131/OC-VTP">code</a></code> <br>
-                  🌟🌟 <span style="color: gray">guaranteed optimal vision token pruning for the first time, by combining OCL</span>
+                  🌟🌟 <span style="color: gray">guaranteed optimal vision token pruning for the first time, by
+                    combining OCL</span>
                 </li>
                 <li>R Zhao, W Yang, J Kannala, J Pajarinen.
                   Smoothing Slot Attention Iterations and Recurrences.
@@ -162,14 +223,15 @@
                   🌟🌟 <span style="color: gray">new SotA of OCL on both images and videos</span>
                 </li>
               </ul>
-              
+
               <b>2026</b>
               <ul>
                 <li>R Zhao, J Li, J Kannala, J Pajarinen.
                   Predicting Video Slot Attention Queries from Random Slot-Feature Pairs.
                   AAAI 2026. <br>
                   <code>[RandSF.Q]<a href="https://github.com/Genera1Z/RandSF.Q">code/model/log</a></code> <br>
-                  🌟🌟🌟 <span style="color: gray">implicit transition dynamics modeling in video OCL for the first time; significant performance gains</span>
+                  🌟🌟🌟 <span style="color: gray">implicit transition dynamics modeling in video OCL for the first
+                    time; significant performance gains</span>
                 </li>
               </ul>
 
@@ -189,7 +251,8 @@
                   Vector-Quantized Vision Foundation Models for Object-Centric Learning.
                   ACM MM 2025. <br>
                   <code>[VQ-VFM-OCL]<a href="https://github.com/Genera1Z/VQ-VFM-OCL">code/model/log</a></code> <br>
-                  🌟🌟 <span style="color: gray">unify mainstream OCL by supporting any decoding; reproduce many baselines</span>
+                  🌟🌟 <span style="color: gray">unify mainstream OCL by supporting any decoding; reproduce many
+                    baselines</span>
                 </li>
                 <li>R Zhao, V Wang, J Kannala, J Pajarinen.
                   Multi-Scale Fusion for Object Representation.
